@@ -40,7 +40,6 @@
 نمونه‌ای از یک Dockerfile برای پروژه Python/Django که تمام وابستگی‌ها را از میرورهای داخلی دریافت می‌کند:
 
 ```dockerfile
-# ایمیج پایه از میرور ابرآروان
 FROM docker.arvancloud.ir/python:3.12-slim-bullseye
 
 LABEL maintainer="your-email@example.com"
